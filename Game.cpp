@@ -1,10 +1,11 @@
 #include "Game.hpp"
+#include "TextureManager.h"
+#include "GameObject.h"
 
 
 
-
-SDL_Texture* playerTex;
-SDL_Rect srcR, destR;
+GameObject* player;
+GameObject* enemy;
 
 
 Game::Game()
@@ -46,9 +47,11 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 	}
 	else { isRunning = false; }
 
-	SDL_Surface* tmpSurface = IMG_Load("assets/playerTemp.png");
-	playerTex = SDL_CreateTextureFromSurface(renderer, tmpSurface);
-	SDL_FreeSurface(tmpSurface);
+	
+	player = new GameObject("assets/playerTemp.png", renderer, 0, 0);
+	enemy = new GameObject("assets/playerTemp.png", renderer, 50, 50);
+	
+	
 
 
 	// If we can't initialize, game is not running.
@@ -74,8 +77,8 @@ void Game::handleEvents()
 void Game::update()
 {
 
-	destR.h = 64;
-	destR.w = 64;
+	player->Update();
+	enemy->Update();
 		
 }
 
@@ -84,7 +87,8 @@ void Game::render()
 	SDL_RenderClear(renderer);
 	
 	// Load here
-	SDL_RenderCopy(renderer, playerTex, NULL, &destR);
+	player->Render();
+	enemy->Render();
 
 
 	SDL_RenderPresent(renderer);
