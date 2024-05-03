@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\11Code\\C\u002B\u002B\\SDL2\\SDLProjects\\RougedSDL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{835E80A3-9866-470F-8B04-C36393E5CF17}|RougedSDL.vcxproj|C:\\11Code\\C\u002B\u002B\\SDL2\\SDLProjects\\RougedSDL\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{835E80A3-9866-470F-8B04-C36393E5CF17}|RougedSDL.vcxproj|solutionrelative:Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835E80A3-9866-470F-8B04-C36393E5CF17}|RougedSDL.vcxproj|C:\\11Code\\C\u002B\u002B\\SDL2\\SDLProjects\\RougedSDL\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{835E80A3-9866-470F-8B04-C36393E5CF17}|RougedSDL.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{835E80A3-9866-470F-8B04-C36393E5CF17}|RougedSDL.vcxproj|C:\\11Code\\C\u002B\u002B\\SDL2\\SDLProjects\\RougedSDL\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{835E80A3-9866-470F-8B04-C36393E5CF17}|RougedSDL.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,19 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\11Code\\C\u002B\u002B\\SDL2\\SDLProjects\\RougedSDL\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\11Code\\C\u002B\u002B\\SDL2\\SDLProjects\\RougedSDL\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-03T02:52:42.728Z",
+              "WhenOpened": "2024-05-03T03:24:28.985Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.hpp",
+              "DocumentMoniker": "C:\\11Code\\C\u002B\u002B\\SDL2\\SDLProjects\\RougedSDL\\Game.hpp",
+              "RelativeDocumentMoniker": "Game.hpp",
+              "ToolTip": "C:\\11Code\\C\u002B\u002B\\SDL2\\SDLProjects\\RougedSDL\\Game.hpp",
+              "RelativeToolTip": "Game.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T03:33:34.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\11Code\\C\u002B\u002B\\SDL2\\SDLProjects\\RougedSDL\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "C:\\11Code\\C\u002B\u002B\\SDL2\\SDLProjects\\RougedSDL\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T03:24:26.969Z",
               "EditorCaption": ""
             }
           ]
